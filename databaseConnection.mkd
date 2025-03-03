@@ -1,0 +1,17 @@
+## Conexión con la Base de Datos
+
+El sistema se conecta a una **base de datos MySQL** utilizando **JDBC (Java Database Connectivity)**. La conexión se realiza mediante un **Driver MySQL**, el cual permite ejecutar consultas SQL directamente desde Java.  
+
+### Configuración de la Conexión  
+
+Para establecer la conexión con la base de datos, se utiliza un código similar al siguiente:  
+
+```java
+Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/inventario_plantas", "usuario", "contraseña");
+```
+
+### Notas Importantes
+
+- Es recomendable manejar las excepciones correctamente, utilizando bloques `try-catch` para asegurarse de que no se produzcan errores durante la conexión o las operaciones con la base de datos.
+- Asegúrate de que la tabla en la base de datos esté configurada con una columna de tipo `BLOB` para almacenar las imágenes.
+- El uso de **JDBC** requiere la inclusión del **Driver de MySQL** en el proyecto para poder establecer la conexión con la base de datos.
