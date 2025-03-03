@@ -1,0 +1,15 @@
+## Login
+
+El sistema cuenta con una funcionalidad de **Login**, donde los usuarios pueden:
+
+- **Crear una cuenta** si son nuevos.
+- **Iniciar sesión** si ya están registrados.
+
+### Tipos de Usuarios
+
+El sistema tiene dos tipos de usuarios, cada uno con diferentes permisos:
+
+| Tipo de Usuario  | Descripción |
+|-----------------|-------------|
+| **Administrador** | Tiene acceso total al sistema, puede crear, editar, eliminar y consultar registros. |
+| **Usuario** | Solo puede consultar la información almacenada en el sistema. |
