@@ -1,0 +1,9 @@
+## Pantalla Usuarios
+
+La **Pantalla Usuarios** está diseñada exclusivamente para la consulta de información sobre las plantas registradas en el sistema. Los usuarios estándar pueden:
+
+**Buscar plantas** mediante filtros como nombre, nombre científico o propiedades.  
+**Visualizar los detalles** de cada planta, incluyendo su descripción, propiedades y contraindicaciones.  
+**Ver la imagen** asociada a cada planta para facilitar su identificación.  
+
+*Restricción:* Los usuarios en esta pantalla **no pueden modificar, agregar ni eliminar registros**. Su acceso es únicamente de lectura para garantizar la integridad de los datos almacenados.
