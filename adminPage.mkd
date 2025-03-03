@@ -1,0 +1,21 @@
+## Pantalla Administrador
+
+La **Pantalla Administrador** permite gestionar completamente el sistema. Desde aquí, los administradores pueden:
+
+**Dar de alta** nuevas plantas en el inventario.  
+**Eliminar** registros de plantas que ya no sean necesarias.  
+**Modificar** la información de cualquier planta registrada.  
+**Crear nuevos usuarios administradores** para compartir la gestión del sistema.  
+
+### Parámetros al dar de alta una planta
+
+Cuando se registra una nueva planta en el sistema, se deben ingresar los siguientes datos:
+
+1. **Nombre**: Nombre común de la planta.  
+2. **Nombre científico**: Denominación científica de la planta.  
+3. **Propiedades**: Beneficios o usos medicinales de la planta.  
+4. **Descripción**: Información detallada sobre la planta.  
+5. **Contraindicaciones**: Advertencias sobre su uso.  
+6. **Imagen**: Fotografía de la planta para su identificación visual.
+
+*Nota:* La imagen debe estar en formato `.jpg` o `.png` y no debe superar los **2MB** de tamaño
